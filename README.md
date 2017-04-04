@@ -1,4 +1,4 @@
-# im2ws
+# img2ws
 Converts an image to
 [Web-safe](https://en.wikipedia.org/wiki/Web_colors#Web-safe_colors) palette.
 

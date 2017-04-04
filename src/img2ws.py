@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # mie nov 27 19:01:16 CET 2013
-# im2ws: Convierte los colores de una imagen al rango colores seguros para la web.
+# img2ws.py: Convierte los colores de una imagen al rango colores seguros para la web.
 
 import sys
 from PIL import Image
@@ -13,8 +13,8 @@ else:
 
 palette = (0x00, 0x33, 0x66, 0x99, 0xcc, 0xff)
 
-im = Image.open(imagein)
-pix = im.load()
+img = Image.open(imagein)
+pix = img.load()
 
 
 def nextcolor(c, p):
@@ -39,8 +39,8 @@ def colorfilter(px):
     return (r, g, b)
 
 
-for x in range(0, im.size[0]):
-    for y in range(0, im.size[1]):
+for x in range(0, img.size[0]):
+    for y in range(0, img.size[1]):
         pix[x,y] = colorfilter(pix[x,y])
 
-im.save(imageout)
+img.save(imageout)
