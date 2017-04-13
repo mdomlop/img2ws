@@ -1,3 +1,6 @@
+![preview](https://raw.githubusercontent.com/manueldl/img2ws/master/preview.png "img2ws")
+
+
 # img2ws
 Converts an image to
 [Web-safe](https://en.wikipedia.org/wiki/Web_colors#Web-safe_colors) palette.

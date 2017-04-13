@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python2
 # mie nov 27 19:01:16 CET 2013
 # img2ws.py: Convert colors from a image to web-safe color palette.
 
@@ -9,7 +9,7 @@ if len(sys.argv) == 3:
     imagein = sys.argv[1]
     imageout = sys.argv[2]
 else:
-    sys.exit('Two arguments needed' + str(len(sys.argv)))
+    sys.exit('Two arguments needed ' + str(len(sys.argv)))
 
 palette = (0x00, 0x33, 0x66, 0x99, 0xcc, 0xff)
 
