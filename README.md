@@ -1,4 +1,4 @@
-![preview](https://raw.githubusercontent.com/manueldl/img2ws/master/preview.png "img2ws")
+![preview](https://raw.githubusercontent.com/mdomlop/img2ws/master/preview.png "img2ws")
 
 
 # img2ws
